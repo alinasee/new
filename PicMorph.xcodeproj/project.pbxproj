@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		4E58E771CB8ACE8FF7CEC0F3 /* Pods_PicMorph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B2C34449B76E6D52F09C3 /* Pods_PicMorph.framework */; };
+		847C74C3292FE68C008A6A5E /* EffectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C74C2292FE68C008A6A5E /* EffectModel.swift */; };
 		848F9C76292E679600DBFA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C75292E679600DBFA4A /* AppDelegate.swift */; };
 		848F9C78292E679600DBFA4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C77292E679600DBFA4A /* SceneDelegate.swift */; };
 		848F9C7F292E679700DBFA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F9C7E292E679700DBFA4A /* Assets.xcassets */; };
 		848F9C82292E679700DBFA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F9C80292E679700DBFA4A /* LaunchScreen.storyboard */; };
+		848F9C92292FD97A00DBFA4A /* BarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C90292FD97A00DBFA4A /* BarController.swift */; };
+		848F9C98292FDC5700DBFA4A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C96292FDC5700DBFA4A /* HomeVC.swift */; };
+		848F9C99292FDC5700DBFA4A /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F9C97292FDC5700DBFA4A /* HomeVC.xib */; };
+		848F9C9C292FDC7500DBFA4A /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C9A292FDC7500DBFA4A /* PhotoVC.swift */; };
+		848F9C9D292FDC7500DBFA4A /* PhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F9C9B292FDC7500DBFA4A /* PhotoVC.xib */; };
+		848F9CA0292FDC9300DBFA4A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9C9E292FDC9300DBFA4A /* ResultVC.swift */; };
+		848F9CA1292FDC9300DBFA4A /* ResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F9C9F292FDC9300DBFA4A /* ResultVC.xib */; };
+		848F9CA4292FDCBE00DBFA4A /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9CA2292FDCBE00DBFA4A /* HistoryVC.swift */; };
+		848F9CA5292FDCBE00DBFA4A /* HistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F9CA3292FDCBE00DBFA4A /* HistoryVC.xib */; };
+		848F9CA8292FDCD200DBFA4A /* SavedPicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F9CA6292FDCD200DBFA4A /* SavedPicVC.swift */; };
+		848F9CA9292FDCD200DBFA4A /* SavedPicVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F9CA7292FDCD200DBFA4A /* SavedPicVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A0B2C34449B76E6D52F09C3 /* Pods_PicMorph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicMorph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847C74C2292FE68C008A6A5E /* EffectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectModel.swift; sourceTree = "<group>"; };
 		848F9C72292E679600DBFA4A /* PicMorph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicMorph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F9C75292E679600DBFA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848F9C77292E679600DBFA4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		848F9C7E292E679700DBFA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848F9C81292E679700DBFA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848F9C83292E679700DBFA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F9C90292FD97A00DBFA4A /* BarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarController.swift; sourceTree = "<group>"; };
+		848F9C96292FDC5700DBFA4A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		848F9C97292FDC5700DBFA4A /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		848F9C9A292FDC7500DBFA4A /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		848F9C9B292FDC7500DBFA4A /* PhotoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoVC.xib; sourceTree = "<group>"; };
+		848F9C9E292FDC9300DBFA4A /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		848F9C9F292FDC9300DBFA4A /* ResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultVC.xib; sourceTree = "<group>"; };
+		848F9CA2292FDCBE00DBFA4A /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		848F9CA3292FDCBE00DBFA4A /* HistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryVC.xib; sourceTree = "<group>"; };
+		848F9CA6292FDCD200DBFA4A /* SavedPicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPicVC.swift; sourceTree = "<group>"; };
+		848F9CA7292FDCD200DBFA4A /* SavedPicVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedPicVC.xib; sourceTree = "<group>"; };
 		CA1837B06A522F6202533289 /* Pods-PicMorph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicMorph.release.xcconfig"; path = "Target Support Files/Pods-PicMorph/Pods-PicMorph.release.xcconfig"; sourceTree = "<group>"; };
 		EFD54530328003EA29FA39F2 /* Pods-PicMorph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicMorph.debug.xcconfig"; path = "Target Support Files/Pods-PicMorph/Pods-PicMorph.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +70,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		847C74C4292FEDD6008A6A5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				847C74C5292FEDE4008A6A5E /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		847C74C5292FEDE4008A6A5E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		848F9C69292E679600DBFA4A = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +106,10 @@
 		848F9C74292E679600DBFA4A /* PicMorph */ = {
 			isa = PBXGroup;
 			children = (
+				848F9CAA292FE0FD00DBFA4A /* Models */,
+				847C74C4292FEDD6008A6A5E /* Views */,
+				848F9C89292FD88600DBFA4A /* ViewControllers */,
+				848F9C8A292FD89900DBFA4A /* BarController */,
 				848F9C75292E679600DBFA4A /* AppDelegate.swift */,
 				848F9C77292E679600DBFA4A /* SceneDelegate.swift */,
 				848F9C7E292E679700DBFA4A /* Assets.xcassets */,
@@ -76,13 +119,101 @@
 			path = PicMorph;
 			sourceTree = "<group>";
 		};
+		848F9C89292FD88600DBFA4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C8B292FD8B300DBFA4A /* HomeBar */,
+				848F9C8C292FD8DE00DBFA4A /* HistoryBar */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		848F9C8A292FD89900DBFA4A /* BarController */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C90292FD97A00DBFA4A /* BarController.swift */,
+			);
+			path = BarController;
+			sourceTree = "<group>";
+		};
+		848F9C8B292FD8B300DBFA4A /* HomeBar */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C8D292FD8F800DBFA4A /* HomeVC */,
+				848F9C8E292FD90500DBFA4A /* PhotoVC */,
+				848F9C8F292FD90D00DBFA4A /* ResultVC */,
+			);
+			path = HomeBar;
+			sourceTree = "<group>";
+		};
+		848F9C8C292FD8DE00DBFA4A /* HistoryBar */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C94292FDC0700DBFA4A /* HistoryVC */,
+				848F9C95292FDC1100DBFA4A /* SavedPicVC */,
+			);
+			path = HistoryBar;
+			sourceTree = "<group>";
+		};
+		848F9C8D292FD8F800DBFA4A /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C96292FDC5700DBFA4A /* HomeVC.swift */,
+				848F9C97292FDC5700DBFA4A /* HomeVC.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		848F9C8E292FD90500DBFA4A /* PhotoVC */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C9A292FDC7500DBFA4A /* PhotoVC.swift */,
+				848F9C9B292FDC7500DBFA4A /* PhotoVC.xib */,
+			);
+			path = PhotoVC;
+			sourceTree = "<group>";
+		};
+		848F9C8F292FD90D00DBFA4A /* ResultVC */ = {
+			isa = PBXGroup;
+			children = (
+				848F9C9E292FDC9300DBFA4A /* ResultVC.swift */,
+				848F9C9F292FDC9300DBFA4A /* ResultVC.xib */,
+			);
+			path = ResultVC;
+			sourceTree = "<group>";
+		};
+		848F9C94292FDC0700DBFA4A /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				848F9CA2292FDCBE00DBFA4A /* HistoryVC.swift */,
+				848F9CA3292FDCBE00DBFA4A /* HistoryVC.xib */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		848F9C95292FDC1100DBFA4A /* SavedPicVC */ = {
+			isa = PBXGroup;
+			children = (
+				848F9CA6292FDCD200DBFA4A /* SavedPicVC.swift */,
+				848F9CA7292FDCD200DBFA4A /* SavedPicVC.xib */,
+			);
+			path = SavedPicVC;
+			sourceTree = "<group>";
+		};
+		848F9CAA292FE0FD00DBFA4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847C74C2292FE68C008A6A5E /* EffectModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A378B16BAE9FCE513CAB6CA7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				EFD54530328003EA29FA39F2 /* Pods-PicMorph.debug.xcconfig */,
 				CA1837B06A522F6202533289 /* Pods-PicMorph.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,7 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				848F9C82292E679700DBFA4A /* LaunchScreen.storyboard in Resources */,
+				848F9C99292FDC5700DBFA4A /* HomeVC.xib in Resources */,
 				848F9C7F292E679700DBFA4A /* Assets.xcassets in Resources */,
+				848F9CA5292FDCBE00DBFA4A /* HistoryVC.xib in Resources */,
+				848F9C9D292FDC7500DBFA4A /* PhotoVC.xib in Resources */,
+				848F9CA1292FDC9300DBFA4A /* ResultVC.xib in Resources */,
+				848F9CA9292FDCD200DBFA4A /* SavedPicVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F9CA4292FDCBE00DBFA4A /* HistoryVC.swift in Sources */,
+				847C74C3292FE68C008A6A5E /* EffectModel.swift in Sources */,
 				848F9C76292E679600DBFA4A /* AppDelegate.swift in Sources */,
+				848F9CA0292FDC9300DBFA4A /* ResultVC.swift in Sources */,
+				848F9CA8292FDCD200DBFA4A /* SavedPicVC.swift in Sources */,
+				848F9C98292FDC5700DBFA4A /* HomeVC.swift in Sources */,
 				848F9C78292E679600DBFA4A /* SceneDelegate.swift in Sources */,
+				848F9C9C292FDC7500DBFA4A /* PhotoVC.swift in Sources */,
+				848F9C92292FD97A00DBFA4A /* BarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

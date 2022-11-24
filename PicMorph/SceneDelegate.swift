@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  PicMorph
 //
-//  Created by Admin on 23.11.22.
+//  Created by Alina Sitsko on 23.11.22.
 //
 
 import UIKit
